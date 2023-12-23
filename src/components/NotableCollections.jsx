@@ -11,7 +11,7 @@ const NotableCollections = () => {
                 <SingleNotableCollection/>
                 <SingleNotableCollection/>
                 <SingleNotableCollection/>
-                <SingleNotableCollection/>
+              
                 
                 
                 </div>
