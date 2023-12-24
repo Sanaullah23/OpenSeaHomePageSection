@@ -3,19 +3,26 @@ import HeroCard from './HeroCard'
 import { FaChevronDown } from "react-icons/fa";
 
 
+
+
 const HeroSection = () => {
   return (
-    <section className='mt-6'>
-        <div className='flex items-center gap-4'>
-            <HeroCard img="https://i.seadn.io/s/production/4870c89c-3244-4e6e-beff-4ad966fac124.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH"/>
-            <HeroCard img="https://i.seadn.io/s/production/425524a4-71a3-4e58-87a9-d3f70c6941b7.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
-            <HeroCard img="https://i.seadn.io/s/production/e65481f8-2478-42d8-a230-0f09dffe8384.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
-            <HeroCard img="https://i.seadn.io/s/production/3e27931e-07c1-43b7-9771-95f72f764e16.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
-            {/* <HeroCard img="https://i.seadn.io/s/production/8e4489a5-5e79-4a59-b87e-255ac29d2fac.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
-            <HeroCard img="https://i.seadn.io/s/production/1cb5ee9f-2c71-455b-8c81-f2c032c434b1.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
-            <HeroCard img="https://i.seadn.io/s/production/8e4489a5-5e79-4a59-b87e-255ac29d2fac.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
-            <HeroCard img="https://i.seadn.io/s/production/1cb5ee9f-2c71-455b-8c81-f2c032c434b1.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" /> */}  
+    <section>
+
+    
+        <div className='mt-8  pb-4 grid grid-rows-1 grid-flow-col overflow-x-auto gap-4'>
+              <HeroCard img="https://i.seadn.io/s/production/4870c89c-3244-4e6e-beff-4ad966fac124.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH"/>
+              <HeroCard img="https://i.seadn.io/s/production/425524a4-71a3-4e58-87a9-d3f70c6941b7.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
+              <HeroCard img="https://i.seadn.io/s/production/e65481f8-2478-42d8-a230-0f09dffe8384.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
+              <HeroCard img="https://i.seadn.io/s/production/3e27931e-07c1-43b7-9771-95f72f764e16.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
+              <HeroCard img="https://i.seadn.io/s/production/8e4489a5-5e79-4a59-b87e-255ac29d2fac.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
+              <HeroCard img="https://i.seadn.io/s/production/1cb5ee9f-2c71-455b-8c81-f2c032c434b1.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
+              <HeroCard img="https://i.seadn.io/s/production/8e4489a5-5e79-4a59-b87e-255ac29d2fac.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />
+              <HeroCard img="https://i.seadn.io/s/production/1cb5ee9f-2c71-455b-8c81-f2c032c434b1.png?auto=format&dpr=1&w=1920" heading="Editions x Teexels" para="Floor: 0.01 ETH" />   
+          
         </div>
+      
+
         <div className='flex mt-10 justify-between items-center text-xl font-medium'>
             <div className='flex items-center gap-6 py-[3px] pl-1 pr-4 bg-gray-200 rounded-xl'>
                 <button className='bg-white rounded-xl py-2 px-4'>Trending</button>
